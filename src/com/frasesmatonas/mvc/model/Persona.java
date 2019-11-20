@@ -4,17 +4,17 @@ import java.util.Date;
 
 public class Persona {
 	private int id_Persona;
-	private String name;
-	private int edad;
+	private String nombre;
+	private byte edad;
 	private String carrera;
 	private Date fecha;
 	
 	public Persona() {
 	}
 	
-	public Persona(int id_Persona,String name,int edad, String carrera, Date fecha) {
+	public Persona(int id_Persona,String nombre,byte edad, String carrera, Date fecha) {
 		this.id_Persona = id_Persona;
-		this.name = name;
+		this.nombre = nombre;
 		this.edad = edad;
 		this.carrera = carrera;
 		this.fecha = fecha;
@@ -29,18 +29,18 @@ public class Persona {
 	}
 	
 	public String getName() {
-		return name;
+		return nombre;
 	}
 	
-	public void setName(String name) {
-		this.name = name;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 	
-	public int getEdad() {
+	public byte getEdad() {
 		return edad;
 	}
 	
-	public void setEdad(int edad) {
+	public void setEdad(byte edad) {
 		this.edad = edad;
 	}
 	

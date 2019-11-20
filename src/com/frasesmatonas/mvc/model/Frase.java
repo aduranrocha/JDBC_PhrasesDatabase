@@ -14,7 +14,11 @@ public class Frase {
 	}
 	
 	public Frase(int id_Frase, String contenido, int cantidad, Date fechaDesde, Date fecha) {
-		
+		this.id_Frase = id_Frase;
+		this.contenido = contenido;
+		this.cantidad = cantidad;
+		this.fechaDesde = fechaDesde;
+		this.fecha = fecha;
 	}
 	
 	public int getId_Frase() {
